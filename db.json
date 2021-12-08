@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "category": "tecnologia",
+      "title": "O guia definitivo do mundo Tech.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam massa erat, vehicula sit amet libero in, pretium pretium tortor. Etiam efficitur non nulla non venenatis. Suspendisse lectus neque, semper non mauris eget, congue tincidunt eros. Nulla placerat porta erat. Suspendisse vitae ornare metus, eu malesuada sem.",
+      "author": "Robert Downly",
+      "date": "Aug 2, 2020 - 8 min read."
+    },
+    {
+      "id": 2,
+      "category": "camêra",
+      "title": "As melhores camêras para 2022.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam massa erat, vehicula sit amet libero in, pretium pretium tortor. Etiam efficitur non nulla non venenatis. Suspendisse lectus neque, semper non mauris eget, congue tincidunt eros. Nulla placerat porta erat. Suspendisse vitae ornare metus, eu malesuada sem.",
+      "author": "Julia Downly",
+      "date": "Aug 2, 2020 - 8 min read."
+    },
+    {
+      "id": 3,
+      "category": "cinema",
+      "title": "Home aranha sem volta pra casa, em dezembro.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam massa erat, vehicula sit amet libero in, pretium pretium tortor. Etiam efficitur non nulla non venenatis. Suspendisse lectus neque, semper non mauris eget, congue tincidunt eros. Nulla placerat porta erat. Suspendisse vitae ornare metus, eu malesuada sem.",
+      "author": "Peter Downly",
+      "date": "Aug 2, 2020 - 8 min read."
+    },
+    {
+      "id": 4,
+      "category": "hadware",
+      "title": "Veja o aumento nos preços de equipamentos.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam massa erat, vehicula sit amet libero in, pretium pretium tortor. Etiam efficitur non nulla non venenatis. Suspendisse lectus neque, semper non mauris eget, congue tincidunt eros. Nulla placerat porta erat. Suspendisse vitae ornare metus, eu malesuada sem.",
+      "author": "Vitor Downly",
+      "date": "Aug 25, 2021 - 8 min read."
+    }
+  ]
+}
