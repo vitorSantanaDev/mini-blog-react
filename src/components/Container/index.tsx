@@ -1,9 +1,14 @@
 import React from "react"
 import * as S from "./styles"
 
-const Container: React.FC = ({ children }) => {
+interface ContainerProps {
+  children: React.ReactNode
+  className?: string
+}
+
+const Container: React.FC<ContainerProps> = ({ children, className }) => {
   return (
-    <S.ContainerWrapper>{children}</S.ContainerWrapper>
+    <S.ContainerWrapper className={className}>{children}</S.ContainerWrapper>
   )
 }
 
