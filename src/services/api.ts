@@ -1,3 +1,7 @@
-import styled from "styled-components";
+import axios from "axios"
 
-export const ApiWrapper = styled.div
+const api = axios.create({
+  baseURL: 'http://localhost:4000/'
+})
+
+export default api
