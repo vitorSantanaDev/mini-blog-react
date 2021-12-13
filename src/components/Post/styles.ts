@@ -20,6 +20,7 @@ export const PostContent = styled.div`
   }
 
   p {
+    text-align: justify;
     color: ${({ theme }) => theme.colors.gray4};
     font-size: ${({ theme }) => theme.typograph.p};
   }
@@ -29,6 +30,7 @@ export const PostProfileData = styled.div`
   display: flex;
   align-items: center;
   padding-top: ${({ theme }) => theme.spacing.gap2};
+  margin-bottom: ${({ theme }) => theme.spacing.gap4};
 
   .imageProfile {
     width: 56px;

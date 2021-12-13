@@ -5,9 +5,12 @@ import * as S from "./styles";
 interface PostProps {
   title: string
   subtitle: string
+  content: string
+  author: string
+  date: string
 }
 
-const Post: React.FC<PostProps> = ({ title, subtitle }) => {
+const Post: React.FC<PostProps> = ({ title, subtitle, content, author, date }) => {
   return (
     <Container>
       <S.PostWrapper>
@@ -16,17 +19,14 @@ const Post: React.FC<PostProps> = ({ title, subtitle }) => {
           <h5>{title}</h5>
           <h3>{subtitle}</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
-            sit, officiis commodi dicta cum est laborum! Ab quod praesentium sit
-            quaerat pariatur aliquid assumenda porro! Optio corporis fugit
-            ratione nam?
+            {content}
           </p>
         </S.PostContent>
         <S.PostProfileData>
           <div className="imageProfile"></div>
           <div className="dataProfile">
-            <h6>Fulano de Tal</h6>
-            <p>Aug 2, 2020 - 8 min read</p>
+            <h6>{author}</h6>
+            <p>{date}</p>
           </div>
         </S.PostProfileData>
       </S.PostWrapper>
